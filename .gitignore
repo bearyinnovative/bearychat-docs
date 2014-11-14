@@ -1,0 +1,17 @@
+.eunit
+deps
+*.o
+*.plt
+erl_crash.dump
+/target
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+*.pyc
+*.swp
+*.swo
