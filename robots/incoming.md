@@ -1,11 +1,14 @@
 # Incoming 机器人
 
 You have two options for sending data to the Webhook URL above:
-Send a JSON string as the payload parameter in a POST request
-Send a JSON string as the body of a POST request
+
+1. Send a JSON string as the payload parameter in a POST request
+2. Send a JSON string as the body of a POST request
+
 For a simple message, your JSON payload must contain a text property. This is the text that will be posted to the channel.
 A simple example:
-payload={"text": "This is a line of text in a channel.\nAnd this is another line of text."}
+
+`payload={"text": "This is a line of text in a channel.\nAnd this is another line of text."}`
 
 创建完Incoming机器人之后, 得到Incoming机器人的Webhook url
 
