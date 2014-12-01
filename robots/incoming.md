@@ -15,6 +15,8 @@ A simple example:
 1. 可以直接往url post一个json数据
 2. 可以往url post一个form，对应字段是payload，该字段的值应该是一个序列化之后的json字符串
 
-数据本身，暂时只支持`text` field: {"text": "Hello world"}
+## 格式
+* 必须有`text` 字段: {"text": "Hello world"}
+* markdown为可选字段，用于控制`text`字段是否进行markdown解析，默认为false
 
 TODO: 更多可自定义的字段正在开发中
