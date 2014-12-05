@@ -1,15 +1,29 @@
-# Github Webhook设置
+# BearyChat Github 手动配置指南
 
-1. ## 进入项目的管理页面
+## 进入Github代码库首页
 
-   找到你管理的进入项目页面，点击「Settings」
+找到你管理的进入项目页面，点击「Settings」按钮
 
-2. ## 添加 Webhook
-   点击「Webhooks & Services」-> 「Add webhook」 这时Gtihub会让你输入二次确认密码
-3. ## 设置具体的 Webhook 内容
-   1. 在「Payload URL」中填入插件webhook url，
-   2. 选择希望trigger webhook的event
-   3. 勾选「Active」
-   4. 点击绿色的「Add webhook」
+![](/images/tutorial/github_settings.png)
 
-   非oauth设置就完成了！
+## 进入 Webhooks 界面
+
+点击「Webhooks & Services」按钮
+
+![](/images/tutorial/github_webhooks.png)
+
+## 添加 webhook
+
+点击「Add webhook」按钮
+
+![](/images/tutorial/github_add_webhook.png)
+
+## 设置 webhook
+
+将{{webhookUrl}}填入「Payload URL」, 并且保存
+
+![](/images/tutorial/github_payload_url.png)
+
+## 完成设置
+
+最后，Github 手动配置就完成啦! 你现在能够在BearyChat中收到来自 Github 的提醒了!
