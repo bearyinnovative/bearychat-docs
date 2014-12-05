@@ -20,12 +20,12 @@
 
 ## 填写webhook url
 
-将{{webhookUrl}}粘贴到「Webhook」那个框中
+将{{webhookUrl}}粘贴到「Webhook」那个框中, 并点击保存
 
 ![](https://cloud.githubusercontent.com/assets/2056489/4988191/1f70ce30-699a-11e4-9afe-272d03625693.png)
 
 ## 完成设置
 
-你就能够在BearyChat中收到来自Sentry的提醒了! 
+一切搞定! 你现在能够在BearyChat中收到来自Sentry的提醒了! 
 
 ![](https://cloud.githubusercontent.com/assets/2056489/4951031/44416b9c-6662-11e4-825d-b179b614828a.png)
