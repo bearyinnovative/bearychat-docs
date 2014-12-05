@@ -1,22 +1,27 @@
 # Incoming 机器人
 
-You have two options for sending data to the Webhook URL above:
+1.  ## 格式说明
+    以下两种方式 BearyChat 都可以接受 ：
+    1. 发送一个 JSON 字符串做为 POST 请求的 payload 参数
+    2. 发送一个 JSON 字符串做为 POST 请求的 body
 
-1. Send a JSON string as the payload parameter in a POST request
-2. Send a JSON string as the body of a POST request
+    JSON格式要求
+    * 必须有`text` 字段: {"text": "Hello world"}
+    * markdown为可选字段，用于控制`text`字段是否进行markdown解析，默认为false
 
-For a simple message, your JSON payload must contain a text property. This is the text that will be posted to the channel.
-A simple example:
+    示例：
 
-`payload={"text": "This is a line of text in a channel.\nAnd this is another line of text."}`
+    `payload={"text": "This is a line of text in a channel.\nAnd this is another line of text."}`
 
-创建完Incoming机器人之后, 得到Incoming机器人的Webhook url
 
-1. 可以直接往url post一个json数据
-2. 可以往url post一个form，对应字段是payload，该字段的值应该是一个序列化之后的json字符串
+2.  ## 测试你的 WebHook
 
-## 格式
-* 必须有`text` 字段: {"text": "Hello world"}
-* markdown为可选字段，用于控制`text`字段是否进行markdown解析，默认为false
+    通过对 Webhook url 发送请求
+    1. 可以直接往url post一个json数据
+    2. 可以往url post一个form，对应字段是payload，该字段的值应该是一个序列化之后的json字符串
 
-TODO: 更多可自定义的字段正在开发中
+    代码示例
+
+    ```curl -X POST --data-urlencode "payload={\"text\":\"消息正文\"}" http://hook.bearychat.com/你的webhook地址 ```
+
+
