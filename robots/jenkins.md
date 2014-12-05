@@ -1,4 +1,4 @@
-# BearyChat Jenkins配置指南
+# BearyChat Jenkins 配置指南
 
 ## 进入 Jenkins 管理页面
 
@@ -27,9 +27,9 @@
 
 ![](/images/tutorial/jenkins_configure_system.png)
 
-Team Domain: beary
+Team Domain: {{teamSubdomain}}
 
-Integration Token: xxxxxxxxxxx
+Integration Token: {{robotToken}}
 
 找到「Global Bearychat Notifier Settings」，然后添加如下文本。其他字段是可选的，可以点击问号来获得那些字段的对应帮助信息。记得最后点击「Save」按钮。
 
