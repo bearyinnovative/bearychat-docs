@@ -21,5 +21,3 @@ Bitbucket有两种webhook, 一种是「POST」, 一种是「Pull Request POST」
 ## 设置完成
 
 最后，你就能够在BearyChat的讨论组中，收到来自Bitbucket的提醒啦! 
-
-
