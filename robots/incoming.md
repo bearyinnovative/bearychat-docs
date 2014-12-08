@@ -35,10 +35,10 @@ JSON格式要求
 
 ### attachments
 
-1. title. 可选。
-2. text. 可选。
-3. color. 可选。用于控制attachment在排版时左侧的竖线分隔符颜色
-4. title和text字段必须有一个。其他的随意组合。
+1. `title`. 可选。
+2. `text`. 可选。
+3. `color`. 可选。用于控制attachment在排版时左侧的竖线分隔符颜色
+4. `title`和`text`字段必须有一个。其他的随意组合。
 
 ## 测试你的 WebHook
 
