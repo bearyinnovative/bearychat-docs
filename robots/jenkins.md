@@ -1,4 +1,4 @@
-# BearyChat Jenkins 配置指南
+# BearyChat Jenkins 手动配置指南
 
 ## 进入 Jenkins 管理页面
 

@@ -1,4 +1,4 @@
-# BearyChat Sentry配置指南
+# BearyChat Sentry 手动配置指南
 
 ## 安装sentry-bearychat插件
 

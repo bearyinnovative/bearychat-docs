@@ -1,4 +1,4 @@
-# BearyChat Gitlab 配置
+# BearyChat Gitlab 手动配置指南
 
 ## 进入Gitlab中你的项目页面
 
@@ -14,7 +14,7 @@
 
 ## 设置webhook
 
-将{{webhookUrl}}填入的「URL」中并保存。
+将{{webhookUrl}}填入「URL」中并保存
 
 ![](/images/tutorial/gitlab_add_webhook.png)
 
