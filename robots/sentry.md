@@ -10,22 +10,24 @@
 
 进入你的项目页面，点击「Manage Integrations」
 
-![](https://cloud.githubusercontent.com/assets/2056489/4988175/bb5e5ef8-6999-11e4-9cef-2f6326a02ef2.png)
+![](/images/tutorial/sentry_integrations.png)
 
 ## 启用插件
     
-勾选复选框「Bearychat」
+勾选复选框「Bearychat」, 并保存
 
-![](https://cloud.githubusercontent.com/assets/2056489/4988184/d775e07a-6999-11e4-853a-72997ccbca6d.png)
+![](/images/tutorial/sentry_bearychat.png)
 
-## 填写webhook url
+## 设置webhook
+
+点击「Bearychat」插件
 
 将{{webhookUrl}}粘贴到「Webhook」那个框中, 并点击保存
 
-![](https://cloud.githubusercontent.com/assets/2056489/4988191/1f70ce30-699a-11e4-9afe-272d03625693.png)
+![](/images/tutorial/sentry_webhook.png)
 
 ## 完成设置
 
 一切搞定! 你现在能够在BearyChat中收到来自Sentry的提醒了! 
 
-![](https://cloud.githubusercontent.com/assets/2056489/4951031/44416b9c-6662-11e4-825d-b179b614828a.png)
+![](/images/tutorial/sentry_notification.png)
