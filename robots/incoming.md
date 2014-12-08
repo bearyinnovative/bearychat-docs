@@ -4,7 +4,7 @@
 
 以下两种方式 BearyChat 都可以接受 ：
 1. 发送一个 JSON 字符串做为 POST 请求的 payload 参数
-2. 发送一个 JSON 字符串做为 POST 请求的 body
+2. 发送一个 JSON 字符串做为 POST 请求的 body, `Content-Type`为`application/json`
 
 JSON格式要求
 * 必须有`text` 字段: {"text": "Hello world"}
@@ -12,8 +12,33 @@ JSON格式要求
 
 示例：
 
-`payload={"text": "This is a line of text in a channel.\nAnd this is another line of text."}`
+    {
+        text: "text, this field may accept markdown",
+        markdown: true
+        channel: "bearychat-dev",
+        attachments: [
+            {
+                title: "title_1"
+                text: "attachment_text"
+                color: "#ffffff"
+            }]  
+    }
 
+## 字段含义
+
+### 顶层字段
+
+1. `text`. 必须字段。支持inline md的文本内容。
+2. `markdown`. 可选字段。用于控制text是否解析为markdown。默认为false
+2. `channel`. 可选字段。如果有这个字段，消息会发送到指定讨论组。如果没有，消息会发送到创建机器人时默认的讨论组。
+3. `attachments`. 可选。一系列附件
+
+### attachments
+
+1. title. 可选。
+2. text. 可选。
+3. color. 可选。用于控制attachment在排版时左侧的竖线分隔符颜色
+4. title和text字段必须有一个。其他的随意组合。
 
 ## 测试你的 WebHook
 
@@ -24,5 +49,3 @@ JSON格式要求
 代码示例
 
 ```curl -X POST --data-urlencode "payload={\"text\":\"消息正文\"}" http://hook.bearychat.com/你的webhook地址 ```
-
-
