@@ -48,4 +48,11 @@ JSON格式要求
 
 代码示例
 
-```curl -X POST --data-urlencode "payload={\"text\":\"消息正文\"}" http://hook.bearychat.com/你的webhook地址 ```
+```curl -X POST --data-urlencode "payload={\"text\":\"愿原力与你同在\"}" http://hook.bearychat.com/your_webhook_url ```
+
+
+![](/images/tutorial/incoming_r2d2_1.png)
+
+```curl -H "Content-Type: application/json" -d '{"text":"愿原力与你同在","attachments":[{"title":"Star Wars III","text":"Return of the Jedi","color":"#ffa500"}]}' "http://hook.bearychat.com/your_webhook_url" ```
+
+![](/images/tutorial/incoming_r2d2_2.png)
