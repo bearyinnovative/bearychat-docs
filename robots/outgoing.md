@@ -17,9 +17,8 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
 {
     token: "eewoCbrv3z1VuxbTDRpmPAkQ"
     ts:1355517523
-    username: "loddit"
-    text: "google: 学挖掘机哪家强？"
-    trigger_word: "google:"
+    text: "/baike 中国"
+    trigger_word: "/baike"
 }
 ```
 
