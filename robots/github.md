@@ -1,6 +1,6 @@
-# BearyChat Github 手动配置指南
+# BearyChat GitHub 手动配置指南
 
-## 进入Github代码库首页
+## 进入GitHub代码库首页
 
 找到你管理的进入项目页面，点击「Settings」按钮
 
@@ -26,4 +26,4 @@
 
 ## 完成设置
 
-最后，Github 手动配置就完成啦! 你现在能够在BearyChat中收到来自 Github 的提醒了!
+最后，GitHub 手动配置就完成啦! 你现在能够在BearyChat中收到来自 GitHub 的提醒了!
