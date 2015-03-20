@@ -1,6 +1,6 @@
 # BearyChat 金数据 手动配置指南
 
-## 进入 金数据 中你的表单页面
+## 进入金数据中「我的表单」页面
 
 ![](/images/tutorial/jinshuju_form.png)
 
