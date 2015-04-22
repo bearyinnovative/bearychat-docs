@@ -16,4 +16,6 @@
 
 ## 设置完成
 
-最后，你就能够在 BearyChat 的讨论组中，收到来自 Tower 的提醒啦!
+最后，你就能够在 BearyChat 的讨论组中，收到来自 Tower 的提醒啦! 下图是 Tower机器人 在 BearyChat 中产生的信息流，赶紧来试试吧
+
+![](/images/tutorial/tower_in_chat.png)
