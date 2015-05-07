@@ -2,10 +2,9 @@
 
 ## 进入 Jenkins 管理页面
 
-在Jenkins dashboard中，在左边侧边栏，点击「Manage Jenkins」
+在 Jenkins dashboard 中，在左边侧边栏，点击「Manage Jenkins」
 
 ![](/images/tutorial/jenkins_manage.png)
-
 
 ## 进入插件管理
 
@@ -13,13 +12,11 @@
 
 ![](/images/tutorial/jenkins_manage_plugins.png)
 
-
 ## 安装 BearyChat Jenkins 插件
 
 点击「Available」标签，在「Filter」中搜索「Bearychat」。然后勾选并安装插件。
 
 ![](/images/tutorial/jenkins_install_plugin.png)
-
 
 ## 设置 BearyChat Jenkins 插件
 
@@ -35,7 +32,6 @@ Integration Token: {{robotToken}}
 
 ![](/images/tutorial/jenkins_global_bearychat_settings.png)
 
-
 ## 设置提醒项目和关注实现
 
 在每个你希望收到提醒的项目中，找到「Configure」菜单
@@ -45,7 +41,6 @@ Integration Token: {{robotToken}}
 在「Bearychat Notifications」部分，选中你所关注的事件。
 
 ![](/images/tutorial/jenkins_bearychat_notifications.png)
-
 
 ## 完成设置
 

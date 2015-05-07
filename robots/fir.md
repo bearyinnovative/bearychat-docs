@@ -6,7 +6,7 @@
 
 ![](/images/tutorial/fir_service.png)
 
-## 进入「第三方服务」页面, 设置 Webhook
+## 进入「第三方服务」页面, 设置 webhook
 
 然后看到「BearyChat」点击「添加配置」按钮。在「Webhook地址」中填入 {{webhookUrl}} 地址, 并保存
 
@@ -14,4 +14,4 @@
 
 ## 设置完成
 
-最后，你就能够在BearyChat的讨论组中，收到来自 FIR.im 的提醒啦!
+最后，你就能够在 BearyChat 的讨论组中，收到来自 FIR.im 的提醒啦!
