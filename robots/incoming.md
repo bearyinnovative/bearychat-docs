@@ -6,9 +6,9 @@
 1. 发送一个 JSON 字符串做为 POST 请求的 payload 参数
 2. 发送一个 JSON 字符串做为 POST 请求的 body, `Content-Type`为`application/json`
 
-JSON格式要求
+JSON 格式要求
 * 必须有`text` 字段: {"text": "Hello world"}
-* markdown为可选字段，用于控制`text`字段是否进行markdown解析，默认为false
+* markdown 为可选字段，用于控制`text`字段是否进行 markdown 解析，默认为 false
 
 示例：
 
@@ -21,15 +21,15 @@ JSON格式要求
                 title: "title_1"
                 text: "attachment_text"
                 color: "#ffffff"
-            }]  
+            }]
     }
 
 ## 字段含义
 
 ### 顶层字段
 
-1. `text`. 必须字段。支持inline md的文本内容。
-2. `markdown`. 可选字段。用于控制text是否解析为markdown。默认为false
+1. `text`. 必须字段。支持 inline md 的文本内容。
+2. `markdown`. 可选字段。用于控制 text 是否解析为 markdown。默认为 false
 2. `channel`. 可选字段。如果有这个字段，消息会发送到指定讨论组。如果没有，消息会发送到创建机器人时默认的讨论组。
 3. `attachments`. 可选。一系列附件
 
@@ -37,14 +37,14 @@ JSON格式要求
 
 1. `title`. 可选。
 2. `text`. 可选。
-3. `color`. 可选。用于控制attachment在排版时左侧的竖线分隔符颜色
+3. `color`. 可选。用于控制 attachment 在排版时左侧的竖线分隔符颜色
 4. `title`和`text`字段必须有一个。其他的随意组合。
 
 ## 测试你的 WebHook
 
 通过对 Webhook url 发送请求
-1. 可以直接往url post一个json数据
-2. 可以往url post一个form，对应字段是payload，该字段的值应该是一个序列化之后的json字符串
+1. 可以直接往 url post 一个 json 数据
+2. 可以往 url post 一个 form，对应字段是 payload，该字段的值应该是一个序列化之后的 json 字符串
 
 代码示例
 
