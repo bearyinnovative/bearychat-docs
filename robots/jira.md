@@ -1,6 +1,6 @@
 # BearyChat Jira 手动配置指南
 
-## 进入Jira中你的项目页面
+## 进入 Jira 中你的项目页面
 
 在右上角设置下拉菜单里面点击「System」按钮
 
@@ -12,13 +12,13 @@
 
 ![](/images/tutorial/jira_webhooks.png)
 
-## 设置webhook
+## 设置 webhook
 
 点击「Create WebHook」按钮。然后在弹出页面里面，在「Name」中填入你想取的名字，将 {{webhookUrl}} 填入「URL」中
 
 ![](/images/tutorial/jira_add_webhook.png)
 
-选中所关心的 Events，并保存
+选中所关心的 events，并保存
 
 ![](/images/tutorial/jira_save_webhook.png)
 

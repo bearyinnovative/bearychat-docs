@@ -12,7 +12,7 @@
 
 ![](/images/tutorial/bitbucket_hooks.png)
 
-## 设置webhook
+## 设置 webhook
 
 Bitbucket 有两种 webhook, 一种是「POST」, 一种是「Pull Request POST」。点击「Add hook」, 分别将 {{webhookUrl}} 填入对应的 hook 中并保存。
 

@@ -6,7 +6,7 @@
 
 ![](/images/tutorial/github_settings.png)
 
-## 进入 Webhooks 界面
+## 进入 webhooks 界面
 
 点击「Webhooks & Services」按钮
 

@@ -10,7 +10,7 @@
 
 ![](/images/tutorial/worktile_webhook.png)
 
-## 添加 Webhook
+## 添加 webhook
 
 ![](/images/tutorial/worktile_addwebhook.png)
 

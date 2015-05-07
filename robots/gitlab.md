@@ -12,7 +12,7 @@
 
 ![](/images/tutorial/gitlab_webhook.png)
 
-## 设置webhook
+## 设置 webhook
 
 将 {{webhookUrl}} 填入「URL」中并保存
 
