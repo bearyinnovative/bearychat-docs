@@ -12,6 +12,8 @@
 
 ## 添加 Webhook
 
+把 BearyChat 生成的 hook 地址填入 PayLoad URL ,再点击 添加 webhook 即可完成操作
+
 ![](/images/tutorial/tower_setting_done.png)
 
 ## 设置完成
