@@ -20,10 +20,10 @@
 
 ## 设置 webhook
 
-将{{webhookUrl}}填入「Url 地址」, 选择你想要接收推送的事件，并且保存
+将 {{webhookUrl}} 填入「Url 地址」, 选择你想要接收推送的事件，并且保存
 
 ![](/images/tutorial/gitcafe_add_webhook_url.png)
 
 ## 完成设置
 
-最后，GitCafe 手动配置就完成啦! 你现在能够在 BearyChat 中收到来自 GitCafe 的提醒了!
+最后，这个 GitCafe 机器人就配合完成啦! 你现在能够在 BearyChat 中收到来自 GitCafe 的提醒了!
