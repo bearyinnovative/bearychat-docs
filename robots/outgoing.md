@@ -30,9 +30,12 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
     text: "text, this field may accept markdown",
     attachments: [
         {
-            title: "title_1"
-            text: "attachment_text"
-            color: "#ffffff"
+            title: "title_1",
+            text: "attachment_text",
+            color: "#ffffff",
+            images: [
+                {"url": "http://example.com/index.jpg"}
+                ]
         }]
 }
 ```

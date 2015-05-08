@@ -14,13 +14,16 @@ JSON 格式要求
 
     {
         text: "text, this field may accept markdown",
-        markdown: true
+        markdown: true,
         channel: "bearychat-dev",
         attachments: [
             {
-                title: "title_1"
-                text: "attachment_text"
-                color: "#ffffff"
+                title: "title_1",
+                text: "attachment_text",
+                color: "#ffffff",
+                images: [
+                    {"url": "http://example.com/index.jpg"}
+                    ]
             }]
     }
 
@@ -39,6 +42,7 @@ JSON 格式要求
 2. `text`. 可选。
 3. `color`. 可选。用于控制 attachment 在排版时左侧的竖线分隔符颜色
 4. `title`和`text`字段必须有一个。其他的随意组合。
+5. `images`. 可选。用于在推送中推送图片，可以最多同时推送3个图片。使用这个字段需要注意，服务器在收到带images的请求时会主动抓取一次图片内容并缓存，这个过程会比较慢，可能造成请求响应时间增加。另外如果两次推送的图片地址都一样，那么第二次的响应时间会显著降低，因为服务器会对请求进行缓存至少一天，所以如果需要不同的图片请使用不同地址。
 
 ## 测试你的 WebHook
 
@@ -56,3 +60,7 @@ JSON 格式要求
 ```curl -H "Content-Type: application/json" -d '{"text":"愿原力与你同在","attachments":[{"title":"Star Wars III","text":"Return of the Jedi","color":"#ffa500"}]}' "http://hook.bearychat.com/your_webhook_url" ```
 
 ![](/images/tutorial/incoming_r2d2_2.png)
+
+```curl -H "Content-Type: application/json" -d '{"text":"a quote a day keeps the doctor away","attachments":[{"title":"Professor John Frink:","text":"Numbers are fun. ","color":"#ffa500", "images": [{"url":"http://img3.douban.com/icon/ul15067564-30.jpg"}]}]}' "http://hook.local.bearychat.com/=bw52O/incoming/0615f77cbb9c780507a62201315841b1" ```
+
+![](/images/tutorial/incoming_prof_frink.png)
