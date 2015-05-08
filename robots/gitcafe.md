@@ -2,7 +2,7 @@
 
 ## 进入 GitCafe 代码库首页
 
-找到你管理的进入项目页面，点击「项目设置」按钮
+进入你管理的 GitCafe 项目页面，点击「项目设置」按钮
 
 ![](/images/tutorial/gitcafe_settings.png)
 
