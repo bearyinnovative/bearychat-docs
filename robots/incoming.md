@@ -61,6 +61,6 @@ JSON 格式要求
 
 ![](/images/tutorial/incoming_r2d2_2.png)
 
-```curl -H "Content-Type: application/json" -d '{"text":"a quote a day keeps the doctor away","attachments":[{"title":"Professor John Frink:","text":"Numbers are fun. ","color":"#ffa500", "images": [{"url":"http://img3.douban.com/icon/ul15067564-30.jpg"}]}]}' "http://hook.local.bearychat.com/=bw52O/incoming/0615f77cbb9c780507a62201315841b1" ```
+```curl -H "Content-Type: application/json" -d '{"text":"a quote a day keeps the doctor away","attachments":[{"title":"Professor John Frink:","text":"Numbers are fun. ","color":"#ffa500", "images": [{"url":"http://img3.douban.com/icon/ul15067564-30.jpg"}]}]}' "http://your_webhook_url" ```
 
 ![](/images/tutorial/incoming_prof_frink.png)
