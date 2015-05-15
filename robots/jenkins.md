@@ -28,9 +28,13 @@ Team Domain: {{teamSubdomain}}
 
 Integration Token: {{robotToken}}
 
-找到「Global Bearychat Notifier Settings」，然后添加如下文本。其他字段是可选的，可以点击问号来获得那些字段的对应帮助信息。记得最后点击「Save」按钮。
+找到「Global Bearychat Notifier Settings」，然后添加如下文本。其他字段是可选的，可以点击问号来获得那些字段的对应帮助信息。
 
 ![](/images/tutorial/jenkins_global_bearychat_settings.png)
+
+为了使得 jenkins 的推送消息，可以通过链接直接跳转到 jenkins 对应的任务，需要配置下 jenkins 的 Locations。记得最后点击「Save」按钮。
+
+![](/images/tutorial/jenkins_config_locations.png)
 
 ## 设置提醒项目和关注实现
 
