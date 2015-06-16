@@ -4,7 +4,7 @@
 
 进入到项目目录，点击「管理」按钮
 
-![](/images/tutorial/oschina_settings.png)
+![](/images/tutorial/oschina_setting.png)
 
 ## 进入 Webhooks 界面
 
