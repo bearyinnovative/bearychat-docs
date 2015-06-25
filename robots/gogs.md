@@ -5,7 +5,7 @@
 
 ![](/images/tutorial/gogs_dashboard.png)
 
-## 进入 Setting 界面
+## 进入 Settings 界面
  点击「Add Webhook」 进入 Webhook 设置界面
 
 ![](/images/tutorial/gogs_setting.png)
