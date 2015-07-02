@@ -2,10 +2,8 @@
 
 ## 将如下内容添加到 .travis.yml 文件中
 
-```
 notifications:
   webhooks: {{webhookUrl}}
-```
 
 ## 完成设置
 
