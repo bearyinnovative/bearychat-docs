@@ -10,10 +10,10 @@
 
 ![](/images/tutorial/worktile_webhook.png)
 
-## 添加 Webhook
+## 添加 webhook
 
 ![](/images/tutorial/worktile_addwebhook.png)
 
 ## 设置完成
 
-最后，你就能够在BearyChat的讨论组中，收到来自 Worktile 的提醒啦!
+最后，你就能够在 BearyChat 的讨论组中，收到来自 Worktile 的提醒啦!

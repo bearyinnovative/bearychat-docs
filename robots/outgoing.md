@@ -36,6 +36,14 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
       title: "title_1"
       text: "attachment_text"
       color: "#666666"
+      images: [
+        {
+          url: "http://example.com/index.jpg"
+        },
+        {
+          url: "http://example.com/index.jpg"
+        }
+      ]
     }
   ]
 }
@@ -51,4 +59,3 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
 * 测试一下 `outgoing`
 
 ![](/images/tutorial/outgoing_sample2.png)
-
