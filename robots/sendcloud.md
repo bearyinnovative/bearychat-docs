@@ -12,13 +12,13 @@
 
 ![](/images/tutorial/sendcloud_select_webhooks.png)
 
-## 添加 webhook
+## 添加 Webhook
 
 点击「创建WebHook」按钮
 
 ![](/images/tutorial/sendcloud_create_webhook.png)
 
-## 设置 webhook
+## 设置 Webhook
 
 将 {{webhookUrl}} 填入「Url 地址」, 选择你想要接收推送的事件，并且确认创建
 
