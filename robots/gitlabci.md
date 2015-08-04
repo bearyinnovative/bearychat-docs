@@ -10,7 +10,7 @@
 
 ![](/images/tutorial/gitlabci_setting.png)
 
-## 设置 webhook
+## 设置 Web hook
 
 将 {{webhookUrl}} 填入「URL」中并保存
 
