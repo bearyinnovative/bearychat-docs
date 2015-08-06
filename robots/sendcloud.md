@@ -1,6 +1,6 @@
 # BearyChat SendCloud 手动配置指南
 
-## 登陆 SendCloud
+## 登录 SendCloud
 
 登入你的 SendCloud 账号，点击「邮件设置」按钮
 
