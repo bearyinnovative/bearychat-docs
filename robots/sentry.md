@@ -14,9 +14,7 @@
 
 ## 设置 webhook
 
-点击「WebHooks」插件
-
-将 {{webhookUrl}} 粘贴到「Callback URLs*」那个框中, 并点击保存
+点击刚添加的「WebHooks」插件，将 {{webhookUrl}} 粘贴到「Callback URLs*」输入框中, 并保存
 
 ![](/images/tutorial/sentry_set_url.png)
 
