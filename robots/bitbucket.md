@@ -8,13 +8,13 @@
 
 ## 进入「Settings」页面
 
-然后进入「Hooks」设置页面
+然后进入「Webhooks」设置页面
 
-![](/images/tutorial/bitbucket_hooks.png)
+![](/images/tutorial/bitbucket_add_webhook.png)
 
-## 设置 webhook
+## 添加 webhook
 
-Bitbucket 有两种 webhook, 一种是「POST」, 一种是「Pull Request POST」。点击「Add hook」, 分别将 {{webhookUrl}} 填入对应的 hook 中并保存。
+点击 「Add webhook」按钮，将 {{webhookUrl}} 填入「URL」 中，并填写对应的「Title」，选择「Choose from a full list of triggers」 并勾选期望的事件
 
 ![](/images/tutorial/bitbucket_webhook.png)
 
