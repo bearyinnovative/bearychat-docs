@@ -8,7 +8,7 @@
 
 ## 进入 Webhooks 界面
 
-点击需要添加webhook的事件旁的齿轮按钮
+点击需要添加 Webhook 的事件旁的齿轮按钮
 
 ![](/images/tutorial/mailgun_select_webhooks.png)
 
@@ -20,7 +20,7 @@
 
 ## 设置 Webhook
 
-将 {{webhookUrl}} 填入「Url 地址」, 选择你想要接收推送的事件，并且确认创建
+将 {{WebhookUrl}} 填入「URL」, 然后点击「Set Webhook URL」按钮
 
 ![](/images/tutorial/mailgun_add_webhook_url.png)
 
