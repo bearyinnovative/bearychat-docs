@@ -26,6 +26,6 @@
 
 ## 完成设置
 
-最后，这个 Mailgun 机器人就配合完成啦! 你现在能够在 BearyChat 中收到来自 Mailgun 的提醒了!
+最后，这个 Mailgun 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 Mailgun 的提醒了!
 
 ![](/images/tutorial/mailgun_notify_sample.png)
