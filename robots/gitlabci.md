@@ -22,4 +22,10 @@
 
 ![](/images/tutorial/gitlabci_in_bearychat.png)
 
-最后要说明一点的是，GitLab CI 的消息提醒，只有在 push 代码到项目下才会触发， Merge Request 的构建不会触发 webhook。
+最后要说明两点：
+ 1. GitLab CI 的消息提醒，只有在 push 代码到项目下才会触发， Merge Request 的构建不会触发 webhook
+ 2. 为了能够指向正确的 CI 地址，需要在 yaml 文件中设置下`ci_external_url`变量，并将真实的地址替换 `your_ci_external_url`。如：
+  ```
+    variables:
+      ci_external_url: your_ci_external_url
+  ```
