@@ -6,7 +6,7 @@
 
 ![](/images/tutorial/jiankongbao_user_setting.png)
 
-## 进入 Webhooks 界面
+## 进入 Webhook 界面
 
 点击「通知设置」按钮，再点击「URL回调」按钮
 
