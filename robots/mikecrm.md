@@ -6,7 +6,7 @@
 
 ## 添加 Webhook
 
-在要添加Webhook的表单上点击「设置URL」按钮
+在要添加 Webhook 的表单上点击「设置URL」按钮
 
 ![](/images/tutorial/mikecrm_webhook_setting.png)
 
