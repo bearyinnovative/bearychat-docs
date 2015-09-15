@@ -1,8 +1,8 @@
-# BearyChat 麦克CRM 手动配置指南
+# BearyChat 麦客 手动配置指南
 
 ## 进入 Webhook 界面
 
-进入 [麦克CRM webook设置地址](http://www.mikecrm.com/webhookSetting.php)
+进入 [麦客 webook设置地址](http://www.mikecrm.com/webhookSetting.php)
 
 ## 添加 Webhook
 
@@ -16,6 +16,6 @@
 
 ## 完成设置
 
-最后，这个 麦克CRM 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 麦克CRM 的提醒了!
+最后，这个 麦客 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 麦客 的提醒了!
 
 ![](/images/tutorial/mikecrm_notify_sample.png)
