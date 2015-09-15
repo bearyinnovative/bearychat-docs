@@ -14,7 +14,7 @@
 
 ## 添加 Webhook
 
-勾选「是否开启URL回调」按钮，回调方式选择「POST」将BearyChat生成的Webhook地址填入到「回调URL」文本框内，然后点击「应用」按钮
+勾选「是否开启URL回调」按钮，回调方式选择「POST」将 BearyChat 生成的 Webhook 地址填入到「回调URL」文本框内，然后点击「应用」按钮
 
 ![](/images/tutorial/jiankongbao_webhook_callback.png)
 
