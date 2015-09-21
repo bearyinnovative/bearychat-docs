@@ -2,7 +2,7 @@
 
 ## 安装 Redmine Webhook 插件
 
-```
+```bash
 $ cd $REDMINE_ROOT/plugins #进入redmine安装路径下的plugins路径
 $ git clone git://github.com/suer/redmine_webhook.git
 $ bundle install #安装webhook插件以来的gem
