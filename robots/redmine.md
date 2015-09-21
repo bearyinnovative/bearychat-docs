@@ -1,5 +1,9 @@
 # BearyChat Redmine 手动配置指南
 
+## 适用的Redmine版本
+
+* Redmine 2.4.x, 2.6.x, 3.0.x
+
 ## 安装 Redmine Webhook 插件
 
 ```bash
