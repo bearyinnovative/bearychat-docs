@@ -8,7 +8,7 @@
 
 JSON 格式要求
 * 必须有`text` 字段: {"text": "Hello world"}
-* markdown 为可选字段，用于控制`text`字段是否进行 markdown 解析，默认为 false
+* markdown 为可选字段，用于控制`text`字段是否进行 markdown 解析，默认为 true
 
 示例：
 
@@ -32,7 +32,7 @@ JSON 格式要求
 ### 顶层字段
 
 1. `text`. 必须字段。支持 inline md 的文本内容。
-2. `markdown`. 可选字段。用于控制 text 是否解析为 markdown。默认为 false
+2. `markdown`. 可选字段。用于控制 text 是否解析为 markdown。默认为 true
 2. `channel`. 可选字段。如果有这个字段，消息会发送到指定讨论组。如果没有，消息会发送到创建机器人时默认的讨论组。
 3. `attachments`. 可选。一系列附件
 
