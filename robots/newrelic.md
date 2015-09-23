@@ -14,7 +14,7 @@
 
 ![](/images/tutorial/newrelic_webhook_step2.png)
 
-* 然后点击「Use Custom Payload」选项，选择「Payload Type」为「JSON」，然后点击「Create channel」
+* 然后点击「Use Custom Payload」选项，选择「Payload Type」为「JSON」，然后点击「Create channel」按钮
 
 ![](/images/tutorial/newrelic_webhook_step3.png)
 
@@ -28,7 +28,7 @@
 
 ![](/images/tutorial/newrelic_alertpolicy_step1.png)
 
-* 在设置 condition 的第二部选择要为这个警告策略绑定的监控实例，在该实例上打钩
+* 在设置 condition 的第二步选择要为这个警告策略绑定的监控实例，在该实例上打钩
 
 ![](/images/tutorial/newrelic_alertpolicy_step2.png)
 
