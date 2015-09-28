@@ -15,13 +15,13 @@ $ rake redmine:plugins:migrate RAILS_ENV=production
 
 ## 进入 Webhook 界面
 
-进入需要加入 Webhook 的项目主页 点击「配置」 在点击「WebHook」
+进入需要加入 Webhook 的项目主页，点击「配置」，再点击「WebHook」
 
 ![](/images/tutorial/redmine_webhook_setting.png)
 
 ## 添加 Webhook
 
-然后将 BearyChat 生成的 Webhook 地址填入「URL」文本框中 点击保存即可
+然后将 BearyChat 生成的 Webhook 地址填入「URL」文本框中，点击保存即可
 
 ![](/images/tutorial/redmine_add_webhook.png)
 
