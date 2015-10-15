@@ -20,7 +20,7 @@
 
 ![](/images/tutorial/confluence_set_webhook.png)
 
-在「Space tools」选项中点击「Add-ons」标签，可以进一步设置 Webhook 的目标 channel，点击「save」
+在「Space tools」选项中点击「Add-ons」标签，可以进一步设置 Webhook 的目标 channel，点击「Save」
 注：设置 channel 是可选项，如果不设置，则会发送到 BearyChat 中该 Confluence 机器人指定的 channel
 
 ![](/images/tutorial/confluence_set_channel.png)
