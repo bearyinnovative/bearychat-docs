@@ -10,7 +10,7 @@
 
 ## 设置插件
 
-新建一个新的 Job，或者选择一个已创建的需要添加 Webhook 提醒的 Job，点击「Edit this Job」进入 Job 设置界面
+新建一个新的 Job 可以直接进入设置界面，或者选择一个已创建的需要添加 Webhook 提醒的 Job，点击「Edit this Job」进入 Job 设置界面
 
 ![](/images/tutorial/rundeck_edit_job.png)
 
