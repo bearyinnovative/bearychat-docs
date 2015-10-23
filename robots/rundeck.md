@@ -14,7 +14,7 @@
 
 ![](/images/tutorial/rundeck_edit_job.png)
 
-在 Job 设置界面中将「Send Notification?」选项勾选为「Yes」，然后在需要设置提醒的 Job 执行状态下偶选上「Bearychat Incoming WebHook」选项，然后将 BearyChat 生成的 Webhook 地址填入「WebHook URL」文本框中，点击保存即可
+在 Job 设置界面中将「Send Notification?」选项勾选为「Yes」，然后在需要设置提醒的 Job 执行状态下面选上「Bearychat Incoming WebHook」选项，然后将 BearyChat 生成的 Webhook 地址填入「WebHook URL」文本框中，点击保存即可
 
 ![](/images/tutorial/rundeck_set_webhook.png)
 
