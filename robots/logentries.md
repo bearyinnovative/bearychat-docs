@@ -8,7 +8,7 @@
 
 ## 设置 Webhook
 
-展开「Add An Alert」区域点击「Other Options」。勾选上「Web hook」选项。然后将 BearyChat 生成的 Webhook 地址填入文本框中即可
+展开「Add An Alert」选项卡点击「Other Options」。勾选上「Web hook」选项。然后将 BearyChat 生成的 Webhook 地址填入文本框中即可
 
 ![](/images/tutorial/logentries_set_webhook.png)
 
