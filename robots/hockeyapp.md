@@ -14,7 +14,7 @@
 
 ## 设置 Webhook
 
-将在 BearyChat 中 HockeyApp 机器人的 {{webhookUrl}} 填入 「Url」 中，选择希望触发的 「Events」 事件并选择「Save」
+将 {{webhookUrl}} 填入 「Url」 中，选择期望触发的 「Events」 事件并点击「Save」
 
 ![](/images/tutorial/hockeyapp_add_webhook.png)
 
