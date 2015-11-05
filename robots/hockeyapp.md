@@ -2,7 +2,7 @@
 
 ## 进入 HockeyApp 控制面板
 
-在控制面板下面，选择某个 App
+在控制面板下面，选择需要接收提醒的 App
 
 ![](/images/tutorial/hockeyapp_dashboard.png)
 
