@@ -14,7 +14,7 @@
 
 ## 设置 Webhook
 
-将 {{webhookUrl}} 填入 「Url」 中，选择期望触发的 「Events」 事件并点击「Save」
+将 {{webhookUrl}} 填入 「Url」 中，选择期望触发的 「Events」 事件，选中 `Webhook is enabled`，点击「Save」
 
 ![](/images/tutorial/hockeyapp_add_webhook.png)
 
