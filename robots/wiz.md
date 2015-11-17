@@ -20,5 +20,4 @@
 
 一切搞定! 你现在能够在 BearyChat 中收到来自 为知笔记 的提醒了!
 
-![](/images/tutorial/wiz_notification1.png)
-![](/images/tutorial/wiz_notification2.png)
+![](/images/tutorial/wiz_notification.png)
