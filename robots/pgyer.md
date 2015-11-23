@@ -14,6 +14,6 @@
 
 ## 完成设置
 
-一切搞定! 你现在能够在 BearyChat 中收到来自 蒲公英 的提醒了!
+一切搞定! 你现在能够在 BearyChat 中收到来自「蒲公英」的提醒了!
 
 ![](/images/tutorial/pgyer_in_bearychat.png)
