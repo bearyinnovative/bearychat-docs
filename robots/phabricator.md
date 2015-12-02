@@ -22,14 +22,12 @@
 
 ![](/images/tutorial/phabricator_copy_token.png)
 
-## 设置 Webhook
+## 设置中间件
 
-选择「Webhook 设置」标签，将 {{webhookUrl}} 填入 「URL」 中，选择希望要推送的功能，并点击「保存信息」
-
-![](/images/tutorial/pgyer_set_webhook.png)
+clone [phabricator-bearychat 仓库](https://github.com/bearyinnovative/phabricator-bearychat) 代码到服务器上，根据「Setup instructions」设置并运行中间件
 
 ## 完成设置
 
 一切搞定! 你现在能够在 BearyChat 中收到来自「Phabricator」的提醒了!
 
-![](/images/tutorial/pgyer_in_bearychat.png)
+![](/images/tutorial/phabricator_in_bearychat.png)
