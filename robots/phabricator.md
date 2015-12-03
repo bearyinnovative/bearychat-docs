@@ -18,7 +18,7 @@
 
 ![](/images/tutorial/phabricator_generate_token_confirm.png)
 
-然后复制出生成好的「Conduit API Tokens」
+然后复制出生成好的「Conduit API Token」
 
 ![](/images/tutorial/phabricator_copy_token.png)
 
