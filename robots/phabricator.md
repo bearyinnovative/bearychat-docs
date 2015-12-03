@@ -18,13 +18,13 @@
 
 ![](/images/tutorial/phabricator_generate_token_confirm.png)
 
-然后复制出生成好的token
+然后复制出生成好的「Conduit API Tokens」
 
 ![](/images/tutorial/phabricator_copy_token.png)
 
 ## 设置中间件
 
-clone [phabricator-bearychat 仓库](https://github.com/bearyinnovative/phabricator-bearychat) 代码到服务器上，根据「Setup instructions」设置并运行中间件
+将 [phabricator-bearychat 仓库](https://github.com/bearyinnovative/phabricator-bearychat) 代码克隆到服务器上，根据「Setup instructions」设置并运行中间件
 
 ## 完成设置
 
