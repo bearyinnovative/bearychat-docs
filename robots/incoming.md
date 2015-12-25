@@ -4,28 +4,31 @@
 
 以下两种方式 BearyChat 都可以接受 ：
 1. 发送一个 JSON 字符串做为 POST 请求的 payload 参数
-2. 发送一个 JSON 字符串做为 POST 请求的 body, `Content-Type`为`application/json`
+2. 发送一个 JSON 字符串做为 POST 请求的 body, `Content-Type` 为 `application/json`
 
 JSON 格式要求
-* 必须有`text` 字段: {"text": "Hello world"}
+* 必须有 `text` 字段: {"text": "Hello world"}
 * markdown 为可选字段，用于控制`text`字段是否进行 markdown 解析，默认为 true
 
 示例：
 
-    {
-        text: "text, this field may accept markdown",
-        markdown: true,
-        channel: "bearychat-dev",
-        attachments: [
-            {
-                title: "title_1",
-                text: "attachment_text",
-                color: "#ffffff",
-                images: [
-                    {"url": "http://example.com/index.jpg"}
-                    ]
-            }]
-    }
+```json
+{
+    "text": "text, this field may accept markdown",
+    "markdown": true,
+    "channel": "bearychat-dev",
+    "attachments": [
+        {
+            "title": "title_1",
+            "text": "attachment_text",
+            "color": "#ffffff",
+            "images": [
+                {"url": "http://example.com/index.jpg"}
+            ]
+        }
+    ]
+}
+```
 
 ## 字段含义
 
