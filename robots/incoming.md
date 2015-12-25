@@ -50,6 +50,7 @@ JSON 格式要求
 ## 测试你的 WebHook
 
 通过对 Webhook url 发送请求
+
 1. 可以直接往 url post 一个 json 数据
 2. 可以往 url post 一个 form，对应字段是 payload，该字段的值应该是一个序列化之后的 json 字符串
 
