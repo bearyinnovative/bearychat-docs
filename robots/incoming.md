@@ -21,9 +21,9 @@ JSON 格式要求
         {
             "title": "title_1",
             "text": "attachment_text",
-            "color": "#ffffff",
+            "color": "#ffa500",
             "images": [
-                {"url": "http://example.com/index.jpg"}
+                {"url": "http://img3.douban.com/icon/ul15067564-30.jpg"}
             ]
         }
     ]
