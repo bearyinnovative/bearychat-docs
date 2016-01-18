@@ -8,7 +8,7 @@
 
 ## 设置「Webhook」
 
-将 BearyChat 中生成的 Webhook 地址填入「Hook 地址」中并保存
+将 BearyChat 中生成的 {{webhookUrl}} 填入「Hook 地址」中并保存
 
 ![](/images/tutorial/oneapmci_add_webhook.png)
 
