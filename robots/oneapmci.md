@@ -8,12 +8,12 @@
 
 ## 设置「Webhook」
 
-将 BearyChat 中生成的 Webhook 地址填入「Hook 地址」中
+将 BearyChat 中生成的 Webhook 地址填入「Hook 地址」中并保存
 
 ![](/images/tutorial/oneapmci_add_webhook.png)
 
 ## 完成设置
 
-最后，这个 OneAPM Cloud Insight 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 OneAPM 的提醒了!
+这个 OneAPM Cloud Insight 机器人就完成了设置， 你已经能够在 BearyChat 中收到来自 OneAPM 的提醒
 
 ![](/images/tutorial/oneapmci_in_bearychat.png)
