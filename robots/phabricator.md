@@ -4,23 +4,23 @@
 
 进入「Phabricator」设置界面
 
-![](/images/tutorial/phabricator_settings.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/Fh0DowvVSvtKVoSOYV-Yrc1pQyS0)
 
 在设置界面，点击「Conduit API Tokens」
 
-![](/images/tutorial/phabricator_token_settings.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FseRt8sHC1pRISjZ27m-O3pZllZJ)
 
 再点击「Generate API Token」
 
-![](/images/tutorial/phabricator_generate_token.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FtZmhl0Eij1trE5ljfl8jxQCLaB4)
 
 最后点击「Generate Token」即可
 
-![](/images/tutorial/phabricator_generate_token_confirm.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FoiTqm4Np8HBhgkKBVz5Sl1VMlHi)
 
 然后复制出生成好的「Conduit API Token」
 
-![](/images/tutorial/phabricator_copy_token.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FigyeS65oi9WYKZRCe_mKoGigsyS)
 
 ## 设置中间件
 
@@ -30,4 +30,4 @@
 
 一切搞定! 你现在能够在 BearyChat 中收到来自「Phabricator」的提醒了!
 
-![](/images/tutorial/phabricator_in_bearychat.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FkuaPokl6_Rl0TPHX8gt3ihbAg8K)

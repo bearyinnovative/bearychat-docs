@@ -4,23 +4,23 @@
 
 在右上角设置下拉菜单里面点击「System」按钮
 
-![](/images/tutorial/jira_system.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FsWWZr7hTJkRnf1Le1P_uRgZPiRu)
 
 ## 进入「System」页面
 
 然后在左侧边栏找到「WebHooks」按钮
 
-![](/images/tutorial/jira_webhooks.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FreTUbVj4hSgOeVhvKAuTb6zfrkn)
 
 ## 设置 webhook
 
 点击「Create WebHook」按钮。然后在弹出页面里面，在「Name」中填入你想取的名字，将 {{webhookUrl}} 填入「URL」中
 
-![](/images/tutorial/jira_add_webhook.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FtUAilGO4X-g5Ika2rmvBCfa9-RW)
 
 选中所关心的 events，并保存
 
-![](/images/tutorial/jira_save_webhook.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/Fn5qEMW1HAChlmWWi0hk5xdKqBgc)
 
 ## 设置完成
 

@@ -4,19 +4,19 @@
 
 在导航栏点击「Settings」按钮
 
-![](/images/tutorial/gitlab_settings.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FufMdffPzASdHZ2qDF249xZqwu18)
 
 ## 进入「Settings」页面
 
 然后在侧边栏找到「Web Hooks」设置页面
 
-![](/images/tutorial/gitlab_webhook.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FrWrOTpomAscTqnO03sFyIxqODGL)
 
 ## 设置 webhook
 
 将 {{webhookUrl}} 填入「URL」中并保存
 
-![](/images/tutorial/gitlab_add_webhook.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FtTPU9uBhu_jmt2CE5o2TNG450qw)
 
 ## 设置完成
 

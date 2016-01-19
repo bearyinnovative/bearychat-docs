@@ -8,7 +8,7 @@
 
 下图就是直接给机器人发邮件的使用效果（因为邮件发送会有一点延迟，所以测试时可能需要稍等一下。）
 
-![](/images/tutorial/email_hello.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/Fh7ljKeQUvE_C3PNNw51JA4h8AxZ)
 
 
 除了直接发邮件外，你还可以通过设置邮件转发，来自动接收邮件。也可以用机器人邮箱来订阅内容。总之，通过邮件机器人你可以实现很多有意思的功能。

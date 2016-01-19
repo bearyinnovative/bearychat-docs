@@ -4,19 +4,19 @@
 
 进入到项目目录，点击「管理」按钮
 
-![](/images/tutorial/oschina_setting.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FurAZVPig-7Vez2fDhOFPgQXhhd4)
 
 ## 进入 Webhooks 界面
 
 点击「PUSH钩子」按钮
 
-![](/images/tutorial/oschina_select_webhooks.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FmRCaTd9p2hjM1i46dEZ5aYI5mjH)
 
 ## 设置 webhook
 
 将 {{webhookUrl}} 填入「钩子地址」, 并且提交
 
-![](/images/tutorial/oschina_add_webhook_url.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/Fi0tBRb0vt8RUR3g84cqVTzEGHVr)
 
 ## 完成设置
 
