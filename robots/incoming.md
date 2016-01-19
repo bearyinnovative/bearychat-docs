@@ -62,7 +62,7 @@ curl '{{webhookUrl}}' \
   -d 'payload={"text":"愿原力与你同在"}'
 ```
 
-![](/images/tutorial/incoming_r2d2_1.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FnT8CM3jb4I1SD50QNQpAdsv6KzY)
 
 ```shell
 curl '{{webhookUrl}}' \
@@ -80,7 +80,7 @@ curl '{{webhookUrl}}' \
 }'
 ```
 
-![](/images/tutorial/incoming_r2d2_2.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FsvdYhad9P2iw9Kh4JXmmWxW16GD)
 
 ```shell
 curl '{{webhookUrl}}' \
@@ -99,4 +99,4 @@ curl '{{webhookUrl}}' \
 }'
 ```
 
-![](/images/tutorial/incoming_prof_frink.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/Futsq1pfcKhOan3CzN3MZlF_Kx1Q)

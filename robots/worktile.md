@@ -4,15 +4,15 @@
 
 点击「项目设置」按钮
 
-![](/images/tutorial/worktile_setting.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FuYna3oPxs24LKV8eWtcb5Hu91jA)
 
 ## 点击「Webhook 设置」页面
 
-![](/images/tutorial/worktile_webhook.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FohnMkT9CqZOiRpwRnWyoCl56NnB)
 
 ## 添加 webhook
 
-![](/images/tutorial/worktile_addwebhook.png)
+![](http://7jpt3p.com1.z0.glb.clouddn.com/FhPm5LLCpvSGlA-OGADfIcjw58td)
 
 ## 设置完成
 
