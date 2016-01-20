@@ -29,9 +29,21 @@ module.exports = function (grunt) {
         ],
       }
     },
+
+    imagemin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'tutorials/image',
+          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          dest: 'dist/image'
+        }]
+      }
+    },
   });
 
-  grunt.registerTask('build', [
+  grunt.registerTask('default', [
+    'imagemin:dist',
     'marked:dist'
   ]);
 };
