@@ -1,0 +1,20 @@
+{
+  "name": "bearychat-tutorial",
+  "version": "1.0.0",
+  "description": "public docs for bearychat",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bearyinnovative/bearychat-tutorial.git"
+  },
+  "keywords": [
+    "bearychat"
+  ],
+  "author": "bearyinnovative",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bearyinnovative/bearychat-tutorial/issues"
+  },
+  "homepage": "https://github.com/bearyinnovative/bearychat-tutorial#readme"
+}
