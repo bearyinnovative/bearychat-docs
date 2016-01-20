@@ -2,8 +2,7 @@
   "name": "bearychat-tutorial",
   "version": "1.0.0",
   "description": "public docs for bearychat",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bearyinnovative/bearychat-tutorial.git"
@@ -16,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/bearyinnovative/bearychat-tutorial/issues"
   },
-  "homepage": "https://github.com/bearyinnovative/bearychat-tutorial#readme"
+  "homepage": "https://github.com/bearyinnovative/bearychat-tutorial#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-marked": "^0.1.2"
+  }
 }
