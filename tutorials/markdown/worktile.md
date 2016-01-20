@@ -4,15 +4,15 @@
 
 点击「项目设置」按钮
 
-![](/images/tutorial/worktile_setting.png)
+![](/tutorials/image/worktile_setting.png)
 
 ## 点击「Webhook 设置」页面
 
-![](/images/tutorial/worktile_webhook.png)
+![](/tutorials/image/worktile_webhook.png)
 
 ## 添加 webhook
 
-![](/images/tutorial/worktile_addwebhook.png)
+![](/tutorials/image/worktile_addwebhook.png)
 
 ## 设置完成
 

@@ -12,16 +12,16 @@
 
 新建一个新的 Job 可以直接进入设置界面，或者选择一个已创建的需要添加 Webhook 提醒的 Job，点击「Edit this Job」进入 Job 设置界面
 
-![](/images/tutorial/rundeck_edit_job.png)
+![](/tutorials/image/rundeck_edit_job.png)
 
 在 Job 设置界面中将「Send Notification?」选项勾选为「Yes」，然后在需要设置提醒的 Job 执行状态下面选上「BearyChat Rundeck WebHook」选项，然后将 BearyChat 生成的 Webhook 地址填入「WebHook URL」文本框中，点击保存即可
 
-![](/images/tutorial/rundeck_set_webhook.png)
+![](/tutorials/image/rundeck_set_webhook.png)
 
 ## 完成设置
 
 这样你就可以在 BearyChat 中收到来自 Rundeck 中 Job 执行状态的消息啦
 
-![](/images/tutorial/rundeck_notification_on_failure.png)
-![](/images/tutorial/rundeck_notification_on_success.png)
+![](/tutorials/image/rundeck_notification_on_failure.png)
+![](/tutorials/image/rundeck_notification_on_success.png)
 

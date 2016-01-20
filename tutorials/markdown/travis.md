@@ -11,4 +11,4 @@ notifications:
 
 就是这么简单，你就可以在 BearyChat 中轻松玩 travis-ci 了!
 
-![](/images/tutorial/travis_bearychat.png)
+![](/tutorials/image/travis_bearychat.png)

@@ -62,7 +62,7 @@ curl '{{webhookUrl}}' \
   -d 'payload={"text":"愿原力与你同在"}'
 ```
 
-![](/images/tutorial/incoming_r2d2_1.png)
+![](/tutorials/image/incoming_r2d2_1.png)
 
 ```shell
 curl '{{webhookUrl}}' \
@@ -80,7 +80,7 @@ curl '{{webhookUrl}}' \
 }'
 ```
 
-![](/images/tutorial/incoming_r2d2_2.png)
+![](/tutorials/image/incoming_r2d2_2.png)
 
 ```shell
 curl '{{webhookUrl}}' \
@@ -99,4 +99,4 @@ curl '{{webhookUrl}}' \
 }'
 ```
 
-![](/images/tutorial/incoming_prof_frink.png)
+![](/tutorials/image/incoming_prof_frink.png)
