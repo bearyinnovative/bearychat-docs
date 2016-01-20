@@ -40,6 +40,27 @@ module.exports = function (grunt) {
         }]
       }
     },
+
+		rsync: {
+			options: {
+				args: ["--verbose"],
+				recursive: true
+			},
+			stage: {
+        options: {
+          src: "dist/*",
+          dest: "/var/www/tutorial",
+          host: "deploy@stage.bearychat.com",
+        }
+			},
+			prod: {
+        options: {
+          src: "dist/*",
+          dest: "/var/www/tutorial",
+          host: "deploy@bearychat.com",
+        }
+			}
+		}
   });
 
   grunt.registerTask('default', [
