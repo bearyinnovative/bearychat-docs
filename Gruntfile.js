@@ -14,7 +14,7 @@ module.exports = function (grunt) {
   // Define the configuration for all the tasks
   grunt.initConfig({
     marked: {
-      dist: {
+      tutorial: {
         options: {
           highlight: false
         },
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
             expand: true,     // Enable dynamic expansion.
             cwd: 'tutorials/markdown',      // Src matches are relative to this path.
             src: ['**/*.md'], // Actual pattern(s) to match.
-            dest: 'dist/html',   // Destination path prefix.
+            dest: 'dist/tutorials/html',   // Destination path prefix.
             ext: '.html',   // Dest filepaths will have this extension.
           },
         ],
@@ -31,40 +31,40 @@ module.exports = function (grunt) {
     },
 
     imagemin: {
-      dist: {
+      tutorial: {
         files: [{
           expand: true,
           cwd: 'tutorials/image',
           src: '{,*/}*.{png,jpg,jpeg,gif}',
-          dest: 'dist/image'
+          dest: 'dist/tutorials/image'
         }]
       }
     },
 
-		rsync: {
-			options: {
-				args: ["--verbose"],
-				recursive: true
-			},
-			stage: {
+  rsync: {
+    options: {
+      args: ["--verbose"],
+        recursive: true
+      },
+      stage: {
         options: {
           src: "dist/*",
-          dest: "/var/www/tutorial",
+          dest: "/var/www/bearychat-docs",
           host: "deploy@stage.bearychat.com",
         }
-			},
-			prod: {
+      },
+      prod: {
         options: {
           src: "dist/*",
-          dest: "/var/www/tutorial",
+          dest: "/var/www/bearychat-docs",
           host: "deploy@bearychat.com",
         }
-			}
-		}
+      }
+    }
   });
 
-  grunt.registerTask('default', [
-    'imagemin:dist',
-    'marked:dist'
+  grunt.registerTask('tutorial', [
+    'imagemin:tutorial',
+    'marked:tutorial'
   ]);
 };
