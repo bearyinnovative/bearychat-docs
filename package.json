@@ -21,6 +21,7 @@
     "grunt-cli": "^0.1.13",
     "grunt-contrib-imagemin": "^1.0.0",
     "grunt-marked": "^0.1.2",
-    "grunt-rsync": "^1.0.1"
+    "grunt-rsync": "^1.0.1",
+    "load-grunt-tasks": "^3.4.0"
   }
 }
