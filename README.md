@@ -1,4 +1,4 @@
-# Bearychat-Tutorial
+# BearyChat-Tutorial
 
 BearyChat 的公开文档
 
