@@ -2,13 +2,13 @@
 
 ## 进入要设置推送的项目
 
-## 进入项目后，在左边导航栏选择：设置 - webhook
+## 进入项目后，在左边导航栏选择：设置 - Webhook
 
 找到「设置」菜单中的「WebHook」页面
 
 ![](/tutorials/image/coding_settings_webhook.png)
 
-## 新建 webhook
+## 新建 Webhook
 
 点击「新建 Hook」, 将 {{webhookUrl}} 填入「URL」输入框中并确定保存
 
