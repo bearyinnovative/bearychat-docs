@@ -1,25 +1,21 @@
 # BearyChat Coding 手动配置指南
 
-## 进入 Coding 中你的项目页面
+## 进入要设置推送的项目
 
-在项目导航栏点击「设置」Tab
+## 进入项目后，在左边导航栏选择：设置 - webhook
 
-![](/tutorials/image/coding_settings.png)
+找到「设置」菜单中的「WebHook」页面
 
-## 进入「Settings」页面
+![](/tutorials/image/coding_settings_webhook.png)
 
-然后在侧边栏找到「WebHook」设置页面
+## 新建 webhook
 
-![](/tutorials/image/coding_webhook.png)
-
-## 设置 webhook
-
-点击「新建Hook」, 将 {{webhookUrl}} 填入「URL」中并保存
-
-![](/tutorials/image/coding_add_webhook.png)
+点击「新建 Hook」, 将 {{webhookUrl}} 填入「URL」输入框中并确定保存
 
 ![](/tutorials/image/coding_webhook_url.png)
 
 ## 设置完成
 
-最后，你就能够在 BearyChat 的讨论组中，收到来自 Coding 的提醒啦!
+完成后，即可在 BearyChat 的讨论组中收到来自 Coding 的提醒
+
+![](/tutorials/image/coding_done.png)
