@@ -1,20 +1,42 @@
 # BearyChat NewRelic 手动配置指南
 
-# 旧版配置指南
+### 旧版配置指南
 
 ## 添加 Webhook 提醒
 
-## 添加警告策略
+* 点击「Alerts」按钮，再点击「Channels and groups」侧边栏菜单 再点击「Create channel」按钮 再点击「Webhook」选项
+
+![](/tutorials/image/newrelic_old_webhook_step0.png)
+
+* 然后分别填写新建的 Webhook 信息
+
+![](/tutorials/image/newrelic_old_webhook_step1.png)
+
+## 添加警告策略(以设置应用警告策略为例，设置服务器警告策略步骤相同)
+
+* 点击「Alerts」按钮，再点击「Application policies」侧边栏菜单(如果是服务器警告策略请点击「Server policies」) 再点击「Create application policy」按钮 然后输入警告策略的名字 最后点击「Create」按钮
+
+![](/tutorials/image/newrelic_old_alertpolicy_step0.png)
+
+* 点击「Applications」菜单，然后点击「Assign applications」按钮
+
+![](/tutorials/image/newrelic_old_alertpolicy_step1.png)
+
+* 勾选上需要绑定警告策略的应用，然后点击「Assign applications」按钮
+
+![](/tutorials/image/newrelic_old_alertpolicy_step2.png)
 
 ## 设置 Webhook 警告
 
-## 完成设置
+* 点击「Alert channels」菜单，然后点击「Select channels」按钮
 
-最后，这个 NewRelic 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 NewRelic 的提醒了!
+![](/tutorials/image/newrelic_old_alertpolicy_notificationchannel_step0.png)
 
-![](/tutorials/image/newrelic_notify_sample.png)
+* 在「Webhook」板块中勾选上需要绑定的消息提醒通道，然后点击「Save now」按钮
 
-# 新版配置指南
+![](/tutorials/image/newrelic_old_alertpolicy_notificationchannel_step1.png)
+
+### 新版配置指南
 
 ## 添加 Webhook 提醒
 
@@ -65,5 +87,7 @@
 ## 完成设置
 
 最后，这个 NewRelic 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 NewRelic 的提醒了!
+
+![](/tutorials/image/newrelic_notify_test.png)
 
 ![](/tutorials/image/newrelic_notify_sample.png)
