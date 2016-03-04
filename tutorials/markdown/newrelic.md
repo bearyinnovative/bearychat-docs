@@ -1,8 +1,24 @@
 # BearyChat NewRelic 手动配置指南
 
+# 旧版配置指南
+
 ## 添加 Webhook 提醒
 
-* 点击「Alerts Beta」按钮，再点击「Notification channels」菜单 再点击「Channels」选项 再点击「Create a notification channel」
+## 添加警告策略
+
+## 设置 Webhook 警告
+
+## 完成设置
+
+最后，这个 NewRelic 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 NewRelic 的提醒了!
+
+![](/tutorials/image/newrelic_notify_sample.png)
+
+# 新版配置指南
+
+## 添加 Webhook 提醒
+
+* 点击「Alerts New」按钮，再点击「Notification channels」菜单 再点击「Channels」选项 再点击「Create a notification channel」
 
 ![](/tutorials/image/newrelic_webhook_step0.png)
 
@@ -20,7 +36,7 @@
 
 ## 添加警告策略
 
-* 点击「Alerts Beta」按钮，再点击「Alert policies」菜单 再点击「New alert policy」按钮
+* 点击「Alerts New」按钮，再点击「Alert policies」菜单 再点击「New alert policy」按钮
 
 ![](/tutorials/image/newrelic_alertpolicy_step0.png)
 
