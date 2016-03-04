@@ -1,6 +1,6 @@
 # BearyChat NewRelic 手动配置指南
 
-NewRelic 提供了两种设置 Webhook 的机制在 BearyChat 中都支持，新版的 Webhook 机制对于一些新注册用户不开放可以使用旧版来进行集成 对于新旧版都可以使用的用户可以根据喜好来选择，也可以同时使用
+NewRelic 提供了两种设置 Webhook 的机制在 BearyChat 中都支持，新版的 Webhook 机制对于一些新注册用户不开放可以使用旧版来进行集成，对于新旧版都可以使用的用户可以根据喜好来选择，也可以同时使用
 
 ### 旧版配置指南
 
