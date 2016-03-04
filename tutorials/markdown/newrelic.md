@@ -38,6 +38,12 @@ NewRelic 提供了两种设置 Webhook 的机制在 BearyChat 中都支持，新
 
 ![](/tutorials/image/newrelic_old_alertpolicy_notificationchannel_step1.png)
 
+## 完成设置
+
+最后，这个 NewRelic 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 NewRelic 的提醒了!
+
+![](/tutorials/image/newrelic_old_notify_sample.png)
+
 ### 新版配置指南
 
 ## 添加 Webhook 提醒
