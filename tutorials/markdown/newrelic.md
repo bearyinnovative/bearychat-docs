@@ -88,6 +88,4 @@
 
 最后，这个 NewRelic 机器人就设置完成啦! 你现在能够在 BearyChat 中收到来自 NewRelic 的提醒了!
 
-![](/tutorials/image/newrelic_notify_test.png)
-
 ![](/tutorials/image/newrelic_notify_sample.png)
