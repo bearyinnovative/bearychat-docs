@@ -14,6 +14,6 @@
 
 ## 完成设置
 
-一切搞定! 你现在能够在 BearyChat 中收到来自 Bugtags 的提醒了!
+现在你能够在 BearyChat 中收到来自 Bugtags 的提醒了
 
 ![](/tutorials/image/bugtags_in_bearychat.png)
