@@ -34,6 +34,6 @@ Hubot 机器人需要做一些必要的设置：
 
 2. 目前 hubot-bearychat 的 adapter 使用的是内置的 express 模块，默认监听 8080 端口，确认防火墙允许访问该端口，或者也可以修改环境变量 `EXPRESS_PORT` 或 `PORT` 来监听别的端口
 
-3. 私有部署 Hubot 机器人在接收到请求后，需要有专门的脚本来处理接收到的数据，用户可以自行添加。但 Hubot 默认支持一些简单的交互，如 ping， echo, time 等，可以用来帮助对接 BearyChat 的 Hubot 机器人
+3. 私有部署 Hubot 机器人在接收到请求后，需要有专门的脚本来处理接收到的数据，用户可以自行添加。但 Hubot 默认支持一些简单的交互，如 ping， echo， time 等，可以用来帮助对接 BearyChat 的 Hubot 机器人
 
 4. 更加详细的配置和开发文档，请参考 Hubot 官方文档：https://hubot.github.com
