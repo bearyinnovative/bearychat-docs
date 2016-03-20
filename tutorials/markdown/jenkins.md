@@ -38,7 +38,7 @@
 
 在项目中，找到「Configure」菜单
 
-![](/images/tutorial/jenkins_configure_project.png)
+![](/tutorials/image/jenkins_configure_project.png)
 
 在「Post-build Actions」菜单中选择「Bearychat Notifications」
 
@@ -53,4 +53,4 @@ Test Connection: 用于测试是否配置正确
 
 至此 Jenkins 设置完毕，团队已经可以接收 Jenkins 的构建结果了
 
-![](/images/tutorial/jenkins_in_bearychat.png)
+![](/tutorials/image/jenkins_in_bearychat.png)
