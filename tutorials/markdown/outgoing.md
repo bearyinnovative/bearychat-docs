@@ -15,13 +15,13 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
 
 ``` javascript
 {
-  token: "robot's token"
-  ts: 1355517523
-  text: "!baike 中国"
-  trigger_word: "!baike"
-  subdomain: 'your_domain'
-  channel_name: 'your_channel'
-  user_name: 'your_name'
+  "token" : "robot's token",
+  "ts" : 1355517523,
+  "text" : "!baike 中国",
+  "trigger_word" : "!baike",
+  "subdomain" : "your_domain",
+  "channel_name" : "your_channel",
+  "user_name" : "your_name"
 }
 ```
 
@@ -30,18 +30,18 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
 **Response:**
 ``` javascript
 {
-  text: "text, this field may accept markdown",
-  attachments: [
+  "text" : "text, this field may accept markdown",
+  "attachments" : [
     {
-      title: "title_1"
-      text: "attachment_text"
-      color: "#666666"
-      images: [
+      "title" : "title_1",
+      "text" : "attachment_text",
+      "color" : "#666666",
+      "images" : [
         {
-          url: "http://example.com/index.jpg"
+          "url" : "http://example.com/index.jpg"
         },
         {
-          url: "http://example.com/index.jpg"
+          "url" : "http://example.com/index.jpg"
         }
       ]
     }
