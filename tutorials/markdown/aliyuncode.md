@@ -6,15 +6,11 @@
 
 ![](/tutorials/image/aliyuncode_project.png)
 
-## 进入「设置」页面
-
-然后在边栏点击「Web 钩子」按钮
-
-![](/tutorials/image/aliyuncode_webhook.png)
-
 ## 设置 webhook
 
-将 {{webhookUrl}} 填入「链接」中并保存
+在设置页面内，点击边栏的「Web 钩子」按钮。
+
+进入 webhook 设置页面后将 {{webhookUrl}} 填入「链接」中并保存。
 
 ![](/tutorials/image/aliyuncode_add_webhook.png)
 
