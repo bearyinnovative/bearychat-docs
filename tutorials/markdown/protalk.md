@@ -20,6 +20,6 @@
 
 ## 完成设置
 
-现在能够在 BearyChat 中收到来自 Protalk 的应用平率的提醒了
+现在能够在 BearyChat 中收到你关心应用的评论的提醒了
 
 ![](/tutorials/image/protalk_in_bearychat.png)
