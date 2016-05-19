@@ -9,7 +9,7 @@ WordPress Webhooks 功能可以通过 [HookPress](https://wordpress.org/plugins/
 
 并选取 **post_content** **post_title** **post_url** 三个字段（必选）：
 
-![](/images/tutorial/wordpress_publish_post_bearychat.png)
+![](/tutorials/image/wordpress_publish_post_bearychat.png)
 
 ## 博客页面发布推送
 
@@ -18,7 +18,7 @@ WordPress Webhooks 功能可以通过 [HookPress](https://wordpress.org/plugins/
 
 并选取 **post_content** **post_title** **post_url** 三个字段（必选）：
 
-![](/images/tutorial/wordpress_publish_page_bearychat.png)
+![](/tutorials/image/wordpress_publish_page_bearychat.png)
 
 ## 新增评论推送
 
@@ -27,11 +27,11 @@ WordPress Webhooks 功能可以通过 [HookPress](https://wordpress.org/plugins/
 
 并选取 **comment_content** **comment_author** 两个字段（必选）：
 
-![](/images/tutorial/wordpress_comment_post_bearychat.png)
+![](/tutorials/image/wordpress_comment_post_bearychat.png)
 
 ## 完成设置
 
 保存上面的配置后，你现在就能够在 BearyChat 中收到 WordPress 的提醒了。
 
-![](/images/tutorial/wordpress_webhooks_bearychat.png)
-![](/images/tutorial/wordpress_in_bearychat.png)
+![](/tutorials/image/wordpress_webhooks_bearychat.png)
+![](/tutorials/image/wordpress_in_bearychat.png)
