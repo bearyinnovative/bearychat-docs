@@ -2,7 +2,9 @@
 
 ## 下载并安装 Stash2BearyChat 插件
 
-在 [Stash2BearyChat 仓库](https://github.com/bearyinnovative/stash2bearychat/releases/latest)下载最新版本的插件，请下载 jar 文件而非源码文件。
+对于 stash 3 的用户，请在 [stash2bearychat@1.3](https://github.com/bearyinnovative/stash2bearychat/releases/tag/1.3) 下载 jar 文件。
+
+对于 bitbucket server 用户，请在 [stash2bearychat@2.0.0](https://github.com/bearyinnovative/stash2bearychat/releases/tag/2.0.0) 下载 jar 文件。
 
 ## 安装插件
 
