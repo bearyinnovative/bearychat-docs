@@ -1,4 +1,4 @@
-# BearyChat stripe 手动配置指南
+# BearyChat stripe 机器人手动配置指南
 
 ## 登录 [stripe](https://dashboard.stripe.com/login) dashboard 页面
 
