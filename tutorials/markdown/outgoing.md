@@ -15,7 +15,7 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
 
 ``` javascript
 {
-  "token" : "robot's token",
+  "token" : "{{robotToken}}",
   "ts" : 1355517523,
   "text" : "!baike 中国",
   "trigger_word" : "!baike",
@@ -24,6 +24,8 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
   "user_name" : "your_name"
 }
 ```
+
+外部服务可以通过验证请求数据中的 token 是否为 `{{robotToken}}` 来判断请求有效性。
 
 外部服务可以返回一个 Response，如果格式满足下面的样例，Outgoing 会发送一条对应的消息到讨论组内
 
