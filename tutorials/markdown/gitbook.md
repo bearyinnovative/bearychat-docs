@@ -8,7 +8,7 @@
 
 ## 设置 webhook
 
-将 {{webhookUrl}} 填入「Payload URL」中, 最后点击「Add webhook」
+将 {{webhookUrl}} 填入「Payload URL」中, 然后点击「Add webhook」
 
 ![](/tutorials/image/gitbook_webhook_url.png)
 
