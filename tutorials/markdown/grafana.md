@@ -48,6 +48,14 @@ secret_key = YOuR_SECRET_KEY
 
 最后，Grafana 手动配置就完成了 ，你现在能够在 BearyChat 中收到来自Grafana的提醒了。
 
-## 效果图(需要配置 `AWS S3`)
-![](/tutorials/image/grafana_demo.png)
+## 效果图
+默认展示
+
+![](/tutorials/image/grafana_demo_wo_s3.png)
+
+
+需要配置 `AWS S3`
+
+![](/tutorials/image/grafana_demo_s3.png)
+
 
