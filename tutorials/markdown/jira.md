@@ -18,7 +18,17 @@
 
 ![](/tutorials/image/jira_add_webhook.png)
 
-选中所关心的 events，并保存
+如果你只想接收部分项目的消息，可以填写 JQL query
+
+比如，只接收 project1 的消息
+
+![](/tutorials/image/jira_query_for_project1.png)
+
+或者只接收 project1、project2 的消息
+
+![](/tutorials/image/jira_query_for_project1_and_project2.png)
+
+之后选中所关心的 events，并保存
 
 ![](/tutorials/image/jira_save_webhook.png)
 
