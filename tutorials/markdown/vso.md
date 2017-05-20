@@ -2,25 +2,25 @@
 
 ## 进入 VSO 项目首页
 
-进入你管理的 VSO 项目页面，点击右上角的设置按钮
+进入你管理的 VSO 项目页面，点击导航栏的设置按钮，选择 Service Hooks
 
 ![](/tutorials/image/vso_settings.png)
 
 ## 进入 Service Hooks 界面
 
-点击「Service Hooks」按钮
+点击「Create Subscription」
 
 ![](/tutorials/image/vso_servicehooks.png)
 
 ## 添加 Web Hooks
 
-选择「Web Hooks」
+选择「Web Hooks」,然后点击 Next
 
 ![](/tutorials/image/vso_add_webhook.png)
 
 ## 选择一个触发器
 
-比如 `pull request created`
+比如 `pull request created`，然后点击 Next
 
 ![](/tutorials/image/vso_choose_trigger.png)
 

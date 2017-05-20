@@ -8,13 +8,7 @@
 
 ## 进入 Webhooks 界面
 
-点击「PUSH钩子」按钮
-
-![](/tutorials/image/oschina_select_webhooks.png)
-
-## 设置 webhook
-
-将 {{webhookUrl}} 填入「钩子地址」, 并且提交
+点击「Webhooks」按钮，填入 Webhooks，并且提交
 
 ![](/tutorials/image/oschina_add_webhook_url.png)
 

@@ -2,13 +2,13 @@
 
 ## 进入 FIR.im 中你的项目页面
 
-在左侧菜单栏里面点击「第三方服务」按钮
+点击「集成」
 
 ![](/tutorials/image/fir_service.png)
 
-## 进入「第三方服务」页面, 设置 webhook
+## 设置 webhook
 
-然后看到「BearyChat」点击「添加配置」按钮。在「Webhook地址」中填入 {{webhookUrl}} 地址, 并保存
+在下方消息推送列表里找到「BearyChat」点击「添加」按钮。在「Webhook地址」中填入 {{webhookUrl}} 地址, 并保存
 
 ![](/tutorials/image/fir_webhooks.png)
 

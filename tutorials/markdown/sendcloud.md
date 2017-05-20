@@ -2,15 +2,9 @@
 
 ## 登录 SendCloud
 
-登入你的 SendCloud 账号，点击「邮件设置」按钮
+登入你的 SendCloud 账号，点击「发送设置」按钮，在点击「WebHook」按钮
 
 ![](/tutorials/image/sendcloud_settings.png)
-
-## 进入 Webhooks 界面
-
-点击「WebHook」按钮
-
-![](/tutorials/image/sendcloud_select_webhooks.png)
 
 ## 添加 Webhook
 
