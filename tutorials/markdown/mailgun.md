@@ -8,15 +8,9 @@
 
 ## 进入 Webhooks 界面
 
-点击需要添加 Webhook 的事件旁的齿轮按钮
+点击需要添加 Webhook 的事件旁的 + 号按钮
 
 ![](/tutorials/image/mailgun_select_webhooks.png)
-
-## 添加 Webhook
-
-点击「Edit URL」按钮
-
-![](/tutorials/image/mailgun_create_webhook.png)
 
 ## 设置 Webhook
 
