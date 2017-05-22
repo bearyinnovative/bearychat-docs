@@ -6,7 +6,7 @@
 
 ![](/tutorials/image/worktile_setting.png)
 
-## 点击「Webhook 设置」页面
+## 点击「项目管理」后，点击「高级设置」，再点击「Webhook 设置」
 
 ![](/tutorials/image/worktile_webhook.png)
 
