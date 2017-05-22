@@ -22,6 +22,5 @@
 
 这样你就可以在 BearyChat 中收到来自 Rundeck 中 Job 执行状态的消息啦
 
-![](/tutorials/image/rundeck_notification_on_failure.png)
-![](/tutorials/image/rundeck_notification_on_success.png)
+![](/tutorials/image/rundeck_notification.png)
 
