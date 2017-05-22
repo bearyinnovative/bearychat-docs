@@ -2,7 +2,7 @@
 
 ## 登录你的 Sentry
 
-进入你的项目页面，点击「Manage Integrations」
+进入你的项目页面，点击「Settings」-> 「All Integrations」
 
 ![](/tutorials/image/sentry_integrations.png)
 
