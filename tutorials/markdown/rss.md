@@ -6,9 +6,9 @@
 
 ## 找到需要你需要的 RSS 源
 
-RSS 源（Feed） 通常是提供一个 URL （网址），很多博客系统和网站都支持 RSS，通常你可以在页面里寻找带有 RSS 图标的按钮就可以获得。
+RSS 源（Feed） 通常是提供一个 URL （网址），很多博客系统和网站都支持 RSS，通常你可以在页面里寻找带有 RSS 图标，或者写有「订阅」的按钮就可以获得。
 
-![](https://dn-bearychat.qbox.me/robot_rss.png)
+![](/tutorials/image/rss_icon.png)
 
 比如 [一熊科技博客](http://bearyinnovative.com/) 的 RSS 源地址就是 `http://bearyinnovative.com/rss/`。
 
