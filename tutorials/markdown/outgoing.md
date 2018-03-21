@@ -56,6 +56,7 @@ BearyChat 会 `POST` 一个特定格式的内容到用户指定的 `URL` 上:
 * 设置 trigger_word 和 URL
 
 只要是以 `!baike` 开头的消息，都会 `POST` 到我们设定的地址 `http://your.robot.service/baike`
+
 ![](/tutorials/image/outgoing_sample1.png)
 
 * 测试一下 `outgoing`
