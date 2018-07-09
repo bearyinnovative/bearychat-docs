@@ -28,7 +28,7 @@ GitHub:
 ## 安装 tcWebHooks 插件
 
 点击「Upload plugin zip」标签，选择在前面下载的插件并上传。
-![](/tutorials/image/teamcity_to_upload-page.jpg)
+![](/tutorials/image/teamcity_to_upload_page.jpg)
 ![](/tutorials/image/teamcity_upload.jpg)
 
 
