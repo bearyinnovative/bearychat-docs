@@ -8,7 +8,7 @@
 2. 发送一个 JSON 字符串做为 POST 请求的 body, `Content-Type` 为 `application/json`
 
 JSON 格式要求
-* 必须有 `text` 字段: {"text": "Hello world"}
+* `text` 和 `attachments` 字段必须有一个
 * markdown 为可选字段，用于控制`text`字段是否进行 markdown 解析，默认为 true
 
 示例：
@@ -36,12 +36,12 @@ JSON 格式要求
 
 ### 顶层字段
 
-1. `text`. 必须字段。支持 inline md 的文本内容。
+1. `text`. 可选字段。支持 inline md 的文本内容。`text` 和 `attachments` 字段必须有一个。
 2. `notification`. 可选字段。用于控制消息提醒的内容显示。
 3. `markdown`. 可选字段。用于控制 text 是否解析为 markdown，默认为 true。
 4. `channel`. 可选字段，讨论组名称。如果有该字段并且该讨论组对于机器人创建者可见，消息会发送到指定讨论组中。
 5. `user`. 可选字段，用户名，邮箱或者手机。在未指定 channel 时如果指定该字段并且该团队中有对应的成员，消息会发送到该成员和 BearyBot 的私聊会话中。注：如果是手机或者邮箱，该字段必须是验证过的。
-6. `attachments`. 可选字段，一系列附件。
+6. `attachments`. 可选字段，一系列附件，如果没有 `attachments` 字段则必须有 `text` 。
 
 ### attachments
 
