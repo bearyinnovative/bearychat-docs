@@ -1,12 +1,12 @@
 # OneAlert 手动配置指南
 
-## 登录 OneAlert
+## 登录 CloudAlert
 
-进入 [OneAlert](http://www.onealert.com)
+进入 [CloudAlert](https://caweb.aiops.com/#/)
 
-## 添加「协作策略」
+## 添加「ChatOps 工具」
 
-点击左侧导航 「配置」 -> 「协作策略」 ->  「新增协助」，选择 「倍洽」
+点击上方导航 「集成」 -> 「ChatOps 工具」，选择 「倍洽」
 
 ![](/tutorials/image/onealert_installation.png)
 
@@ -18,6 +18,6 @@
 
 ## 完成设置
 
-你现在能够在倍洽中收到来自 OneAlert 的提醒了!
+你现在能够在倍洽中收到来自 CloudAlert 的报警了!
 
 ![](/tutorials/image/onealert_preview.png)
